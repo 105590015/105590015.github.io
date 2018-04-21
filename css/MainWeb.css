@@ -1,0 +1,112 @@
+html {
+	width:80%;
+	margin:0% 10%;
+}
+
+a {
+	color:black;
+	text-decoration: none;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.float {
+	float:left;
+}
+
+clear:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.width_100 {
+	width:100%;
+}
+
+.width_65 {
+	width:65%;
+}
+
+.width_50
+{
+	width:50%;
+}
+
+.margin_top_2 {
+	margin-top:2%;
+}
+
+.navy_blue {
+	background-color:#c2dfe3;
+}
+
+.blue {
+	background-color:#e0fbfc;
+}
+
+header td {
+	width:14.28%;
+}
+
+.information {
+	border:1px solid black;
+	text-align:center;
+	font-size:16px;
+	background-color:#5c6b73;
+}
+
+.information a {
+	background-color:#5c6b73;
+	color:#ffffff;
+}
+
+.message table{
+	font-size:16px;
+	margin:0% 0% 2% 2%;
+	width:96%;
+}
+
+.message td{
+	border:1px solid black;
+}
+
+.text {
+	height:84px;
+	background-color:#e0fbfc;
+}
+
+.date {
+	text-align:center;
+	width:16%;
+}
+
+.content {
+	width:84%;
+}
+
+.button {
+	font-size:14px;
+	background-color:#c2dfe3;
+	border:1px solid black;
+	border-radius:3px;
+	padding:5px 10px;
+	margin-left:50%;
+}
+
+.event_web td{
+	text-align:center;
+	border:1px solid black;
+	width:25%;
+}
+
+footer div{
+	width:48%;
+	height:125px;
+	font-size:12px;
+	background-color:#253237;
+	color:#ffffff;
+	padding:2% 0% 0% 2%;
+}
