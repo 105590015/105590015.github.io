@@ -17,12 +17,20 @@ table{
 tr {
     border:1px solid black;
 }
+
 h1{
 	font-weight: bolder;
 	font-size: 25px;
 	color: darkblue;
 }
 
+<<<<<<< HEAD
+=======
+.right{
+	text-align: right;
+}
+
+>>>>>>> a9004bb7628d9071335c70989f4b9e3174a10a8e
 .float {
 	float:left;
 }
