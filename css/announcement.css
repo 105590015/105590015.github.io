@@ -23,13 +23,8 @@ h1{
 	color: darkblue;
 }
 
-<<<<<<< HEAD
-.right{
-	text-align: right;
-=======
 .float {
 	float:left;
->>>>>>> ef981ff0805645254c490db1407dbb25904028d0
 }
 
 clear:after {
