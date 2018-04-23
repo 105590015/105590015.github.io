@@ -8,39 +8,6 @@ a {
 	color:black;
 	text-decoration: none;
 }
-header ul {
-	list-style:none;
-	padding:0px;
-	margin:0px;
-}
-
-.logo {	
-	width:14.28%;
-}
-
-.information {
-	width:14.28%;
-	text-align:center;
-	font-size:18px;
-}
-
-.information a {
-	padding:15.18% 0%;
-	display:block;
-	background-color:#5c6b73;
-	color:white;
-}
-
-.information a:hover {
-	background-color:#253237;
-}
-
-.list {
-	border-top:1px solid black;
-	width:13.16%;
-	position:absolute;
-	visibility:hidden;
-}
 
 table{
     border-collapse: collapse;
@@ -50,32 +17,38 @@ table{
 tr {
     border:1px solid black;
 }
+
 h1{
 	font-weight: bolder;
 	font-size: 25px;
 	color: darkblue;
 }
 
-
-
 h1 a{
-    font-size: 20px;
-    color: crimson;
-    font-weight: bolder;
+	font-size: 20px;
+	color: tomato;
+
 }
 
 
+.right{
+	text-align: right;
+}
+
+.float {
+	float:left;
+}
+
+clear:after {
+	content:"";
+	display:block;
+	clear:both;
+}
 
 .text {
-    margin-left: 200px;
-    font-size: 20px;
-    color: cornflowerblue;
+	margin-left: 20%;
 }
-.color{
-    color: cornflowerblue;
-    margin-top: 1000px;
 
-}
 .date {
 	text-align:center;
 	width:16%;
@@ -84,6 +57,7 @@ h1 a{
 .content {
 	width:84%;
 }
+
 .width_100 {
 	width:100%;
 }
@@ -110,7 +84,7 @@ h1 a{
 }
 
 .margin_RL{
-    margin-left: 250px;
+    margin-left: 25%;
 }
 .navy_blue {
 	background-color:#c2dfe3;
@@ -120,16 +94,39 @@ h1 a{
 	background-color:#e0fbfc;
 }
 
-.float {
-	float:left;
+header ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
 }
 
-clear:after {
-	content:"";
+.logo {	
+	width:14.28%;
+}
+
+.information {
+	width:14.28%;
+	text-align:center;
+	font-size:16px;
+}
+
+.information a {
+	padding:15.18% 0%;
 	display:block;
-	clear:both;
+	background-color:#5c6b73;
+	color:white;
 }
 
+.information a:hover {
+	background-color:#253237;
+}
+
+.list {
+	border-top:1px solid black;
+	width:13.16%;
+	position:absolute;
+	visibility:hidden;
+}
 
 .content {
 	width:85%;
