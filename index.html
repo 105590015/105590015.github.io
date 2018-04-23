@@ -4,23 +4,37 @@
 		<meta charset="utf-8">
 		<title>NTUT CSIE</title>
 		<link rel="stylesheet" href="./css/MainWeb.css">
+		<!-- 加上jquery -->
+		<script src="./js/jquery.js"></script>
+		<script src="./js/js.js"></script>
 	</head>
 	
 	<body>
-		<header>
-			<table>
-				<tr>
-					<td><a href="./index.html"><img class="width_100" src="./images/img_csie_logo.png" alt="CSIE Logo"></a></td>
-					<td class="information"><a href="#">公告事項</a></td>
-					<td class="information"><a href="#">系所介紹</a></td>
-					<td class="information"><a href="./Class_Introduction.html">課程資訊</a></td>
-					<td class="information"><a href="#">研究概況</a></td>
-					<td class="information"><a href="#">系學會介紹</a></td>
-					<td><a href="https://www.ntut.edu.tw/bin/home.php"><img class="width_100" src="./images/img_ntut_logo.png" alt="NTUT Logo"></a></td>
-				</tr>
-			</table>
+		<header><!-- 修改過 -->
+			<ul class="width_100">
+				<li><a href="./index.html"><img class="width_100 logo float" src="./images/img_csie_logo.png" alt="CSIE Logo"></a></li>
+				<li class="information announce float">
+					<a href="#">公告事項</a>
+				</li>
+				<li class="information department float">
+					<a href="#">系所介紹</a>
+				</li>
+				<li class="information class float">
+					<a href="./Class_Introduction.html">課程資訊</a>
+					<ul class="list class_sub">
+						<li><a href="./University_Class.html">大學部課程</a></li>
+					</ul>
+				</li>
+				<li class="information research float">
+					<a href="#">研究概況</a>
+				</li>
+				<li class="information club float">
+					<a href="#">系學會介紹</a>
+				</li>
+				<li><a href="https://www.ntut.edu.tw/bin/home.php"><img class="width_100 logo float" src="./images/img_ntut_logo.png" alt="NTUT Logo"></a></li>
+			</ul>
 			<img class="width_100" src="./images/img_csie.png" alt="CSIE">
-		</header>
+		</header><!-- 到這裡 -->
 		
 		<div class="message clear">
 			<div class="width_50 float">
@@ -63,23 +77,23 @@
 					</tr>
 					<tr class="text">
 						<td class="date">2018-01-02</td>
-						<td class="content">賀！本系學生參加106年度全國大專電腦軟體設計競賽雙料第二名與佳作</td>
+						<td class="content"><a href="#">賀！本系學生參加106年度全國大專電腦軟體設計競賽雙料第二名與佳作</td></a>
 					</tr>
 					<tr class="text">
 						<td class="date">2017-05-08</td>
-						<td class="content">2017第十二屆戰國策全國創新創業競賽 創新創意組第一名</td>
+						<td class="content"><a href="#">2017第十二屆戰國策全國創新創業競賽 創新創意組第一名</td></a>
 					</tr>
 					<tr class="text">
 						<td class="date">2016-11-07</td>
-						<td class="content">賀！本系同學榮獲第21屆全國大專校院資訊應用服務創新競賽 第一名</td>
+						<td class="content"><a href="#">賀！本系同學榮獲第21屆全國大專校院資訊應用服務創新競賽 第一名</td></a>
 					</tr>
 					<tr class="text">
 						<td class="date">2015-12-16</td>
-						<td class="content">本系學生參加104年度全國大專電腦軟體設計競賽獲得第一名與佳作</td>
+						<td class="content"><a href="#">本系學生參加104年度全國大專電腦軟體設計競賽獲得第一名與佳作</td></a>
 					</tr>
 					<tr class="text">
 						<td class="date">2015-09-01</td>
-						<td class="content">本系學生參加第20屆行動計算會議獲得傑出論文獎</td>
+						<td class="content"><a href="#">本系學生參加第20屆行動計算會議獲得傑出論文獎</td></a>
 					</tr>
 				</table>
 				<a class="button" href="http://csie.ntut.edu.tw/csie/Chinese/06Students/st_award.html">More</a>
