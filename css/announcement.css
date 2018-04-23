@@ -1,4 +1,5 @@
 html {
+	font-family: Microsoft JhengHei;
 	width:92.82%;
 	margin:0% 3.59%;
 }
@@ -17,7 +18,15 @@ tr {
     border:1px solid black;
 }
 
+.float {
+	float:left;
+}
 
+clear:after {
+	content:"";
+	display:block;
+	clear:both;
+}
 
 .text {
 	height:84px;
@@ -32,6 +41,7 @@ tr {
 .content {
 	width:84%;
 }
+
 .width_100 {
 	width:100%;
 }
@@ -68,30 +78,38 @@ tr {
 	background-color:#e0fbfc;
 }
 
-.float {
-	float:left;
+header ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
 }
 
-clear:after {
-	content:"";
-	display:block;
-	clear:both;
-}
-
-header td {
+.logo {	
 	width:14.28%;
 }
 
 .information {
-	border:1px solid black;
+	width:14.28%;
 	text-align:center;
 	font-size:16px;
-	background-color:#5c6b73;
 }
 
 .information a {
+	padding:15.18% 0%;
+	display:block;
 	background-color:#5c6b73;
-	color:#ffffff;
+	color:white;
+}
+
+.information a:hover {
+	background-color:#253237;
+}
+
+.list {
+	border-top:1px solid black;
+	width:13.16%;
+	position:absolute;
+	visibility:hidden;
 }
 
 .content {

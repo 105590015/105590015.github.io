@@ -48,7 +48,7 @@ clear:after {
 .blue {
 	background-color:#e0fbfc;
 }
-/*----------.blue以下到(看下次註解)----------*/
+/*----------和header.information有關的全部用這個蓋掉----------*/
 header ul {
 	list-style:none;
 	padding:0px;
@@ -82,7 +82,7 @@ header ul {
 	position:absolute;
 	visibility:hidden;
 }
-/*------------.message table以上複製貼上------------*/
+/*------------到這裡------------*/
 .message table{
 	font-size:16px;
 	margin:0% 0% 2% 2%;
@@ -119,11 +119,11 @@ header ul {
 	padding:5px 10px;
 	margin-left:50%;
 }
-/*----------新增----------*/
+
 .button:hover{
 	background-color:#84dcc6;
 }
-/*------------------------*/
+
 .event_web td{
 	text-align:center;
 	border:1px solid black;
