@@ -16,7 +16,15 @@ table{
 tr {
     border:1px solid black;
 }
+h1{
+	font-weight: bolder;
+	font-size: 25px;
+	color: darkblue;
+}
 
+.right{
+	text-align: right;
+}
 
 
 .text {
