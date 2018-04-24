@@ -24,6 +24,10 @@ h1{
 	color: darkblue;
 }
 
+.content a:hover {
+	color:#aaaaaa;
+}
+
 
 .right{
 	text-align: right;
