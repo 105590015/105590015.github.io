@@ -30,12 +30,44 @@ h1 a{
 
 }
 
+div h1{
+	text-align: center;
+	margin-top: 0px;
+}
+
+
+
+
+div table{
+	margin: auto;
+}
+
+table{
+	width: 100%;
+	border: hidden;
+}
+
+.chairman{
+	border: hidden;
+	text-align: center;
+}
+
+.hung{
+	width: 70%;
+}
+
+.yang{
+	width: 40%;
+}
+
+
+
 .CSIE{
 	margin-left: 30%;
 	margin-right: 30%;
 	width: 40%;
 	margin-top: -800px;
-	margin-bottom: 0px;
+	margin-bottom: 0px;	
 }
 
 .right{
@@ -136,7 +168,13 @@ header ul {
 }
 
 .content {
-	width:85%;
+	margin-left: 60px;	
+	text-align: justify;
+}
+
+.coming{
+	width: 175px;
+	
 }
 
 .title {
