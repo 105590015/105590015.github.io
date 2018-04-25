@@ -1,10 +1,9 @@
-/*----------修改----------*/
 html {
 	font-family: Microsoft JhengHei;
 	width:92.82%;
 	margin:0% 3.59%;
 }
-/*-------------a以上複製貼上-----------*/
+
 a {
 	color:black;
 	text-decoration: none;
@@ -48,7 +47,11 @@ clear:after {
 .blue {
 	background-color:#e0fbfc;
 }
-/*----------和header.information有關的全部用這個蓋掉----------*/
+
+.center {
+	text-align:center;
+}
+
 header ul {
 	list-style:none;
 	padding:0px;
@@ -77,12 +80,11 @@ header ul {
 }
 
 .list {
-	border-top:1px solid black;
-	width:13.16%;
+	width:13.12%;
 	position:absolute;
 	visibility:hidden;
 }
-/*------------到這裡------------*/
+
 .message table{
 	font-size:16px;
 	margin:0% 0% 2% 2%;

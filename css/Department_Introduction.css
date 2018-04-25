@@ -4,71 +4,13 @@ html {
 	margin:0% 3.59%;
 }
 
-a {
+a{
 	color:black;
 	text-decoration: none;
 }
 
 table{
-    border-collapse: collapse;
-    
-}
-
-tr {
-    border:1px solid black;
-}
-
-h1{
-	font-weight: bolder;
-	font-size: 25px;
-	color: darkblue;
-}
-
-h1 a{
-	font-size: 20px;
-	color: tomato;
-
-}
-
-div h1{
-	text-align: center;
-	margin-top: 0px;
-}
-
-div table{
-	margin: auto;
-}
-
-table{
-	width: 100%;
-	border: hidden;
-}
-
-.chairman{
-	border: hidden;
-	text-align: center;
-}
-
-.hung{
-	width: 70%;
-}
-
-.yang{
-	width: 40%;
-}
-
-
-
-.CSIE{
-	margin-left: 30%;
-	margin-right: 30%;
-	width: 40%;
-	margin-top: -800px;
-	margin-bottom: 0px;	
-}
-
-.right{
-	text-align: right;
+	border-collapse: collapse;
 }
 
 .float {
@@ -81,21 +23,12 @@ clear:after {
 	clear:both;
 }
 
-.text {
-	margin-left: 20%;
-}
-
-.date {
-	text-align:center;
-	width:16%;
-}
-
-.content {
-	width:84%;
-}
-
 .width_100 {
 	width:100%;
+}
+
+.width_65 {
+	width:65%;
 }
 
 .width_50
@@ -103,25 +36,19 @@ clear:after {
 	width:50%;
 }
 
-.width_75{
-    width:75%;
+.margin_top_2 {
+	margin-top:2%;
 }
 
 .margin_top_31 {
 	margin-top:31px;
 }
 
-.margin_top_62 {
-	margin-top:62px;
-}
-
 .margin_RL_75 {
-    padding:0% 7.5%;
+	margin-left:7.5%;
+	margin-right:7.5%;
 }
 
-.margin_RL{
-    margin-left: 25%;
-}
 .navy_blue {
 	background-color:#c2dfe3;
 }
@@ -163,14 +90,10 @@ header ul {
 	visibility:hidden;
 }
 
-.content {
-	margin-left: 60px;	
-	text-align: justify;
-}
-
-.coming{
-	width: 175px;
-	
+body div img{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .title {

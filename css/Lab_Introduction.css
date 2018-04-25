@@ -4,7 +4,7 @@ html {
 	margin:0% 3.59%;
 }
 
-a {
+a{
 	color:black;
 	text-decoration: none;
 }
@@ -27,21 +27,21 @@ clear:after {
 	width:100%;
 }
 
+.width_65 {
+	width:65%;
+}
+
 .width_50
 {
 	width:50%;
 }
-
-.margin_top_31 {
-	margin-top:31px;
-}
-
-.margin_top_62 {
-	margin-top:62px;
+.margin_top_2 {
+	margin-top:2%;
 }
 
 .margin_RL_75 {
-	padding:0% 7.5%;
+    margin-left:7.5%;
+	margin-right:7.5%;
 }
 
 .navy_blue {
@@ -85,24 +85,27 @@ header ul {
 	visibility:hidden;
 }
 
-.content {
+body table{
 	width:85%;
-	font-size:20px;
-	text-align:center;
-	margin:0% 7.5%;
+	margin:2% 8% 0% 8%;
+	font-size: 20px;
 }
-
-.content a:hover {
-	color:#aaaaaa;
+body table tr{
+	border: 3px solid #000000;
 }
-
-.title {
-	font-weight: bolder;
-	text-align:center;
+body table td{
+	padding: 5px 10px; 
+	border: 3px solid #000000;
+	text-align: center;
+}
+body table tr.top{
 	background-color:#c2dfe3;
-	border-radius:3px;
-	width:280px;
-	margin:31px 0px 31px 7.5%;
+}
+body table tr.a{
+	background-color:#e0fbfc;
+}
+body table tr.b{
+	background-color:#f0ffff;
 }
 
 footer div{

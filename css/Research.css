@@ -9,30 +9,8 @@ a {
 	text-decoration: none;
 }
 
-table{
-    border-collapse: collapse;
-    
-}
-
-tr {
-    border:1px solid black;
-}
-
 h1{
 	font-weight: bolder;
-	font-size: 25px;
-	color: darkblue;
-}
-
-h1 a{
-	font-size: 20px;
-	color: tomato;
-
-}
-
-
-.right{
-	text-align: right;
 }
 
 .float {
@@ -46,7 +24,11 @@ clear:after {
 }
 
 .text {
-	margin-left: 20%;
+	margin-left:40%;
+}
+
+.text a{
+	font-size:20px;
 }
 
 .date {
@@ -75,17 +57,15 @@ clear:after {
 	margin-top:31px;
 }
 
-.margin_top_62 {
-	margin-top:62px;
+.margin_top_2 {
+	margin-top:2%;
 }
 
 .margin_RL_75 {
-    padding:0% 7.5%;
+    margin-left:7.5%;
+	margin-right:7.5%;
 }
 
-.margin_RL{
-    margin-left: 25%;
-}
 .navy_blue {
 	background-color:#c2dfe3;
 }
@@ -122,14 +102,13 @@ header ul {
 }
 
 .list {
-	border-top:1px solid black;
 	width:13.16%;
 	position:absolute;
 	visibility:hidden;
 }
 
-.content {
-	width:85%;
+.text a:hover {
+	color:#aaaaaa;
 }
 
 .title {
