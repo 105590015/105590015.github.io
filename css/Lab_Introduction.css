@@ -1,0 +1,118 @@
+html {
+	font-family: Microsoft JhengHei;
+	width:92.82%;
+	margin:0% 3.59%;
+}
+
+a{
+	color:black;
+	text-decoration: none;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.float {
+	float:left;
+}
+
+clear:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.width_100 {
+	width:100%;
+}
+
+.width_65 {
+	width:65%;
+}
+
+.width_50
+{
+	width:50%;
+}
+.margin_top_2 {
+	margin-top:2%;
+}
+
+.margin_RL_75 {
+    margin-left:7.5%;
+	margin-right:7.5%;
+}
+
+.navy_blue {
+	background-color:#c2dfe3;
+}
+
+.blue {
+	background-color:#e0fbfc;
+}
+
+header ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+
+.logo {	
+	width:14.28%;
+}
+
+.information {
+	width:14.28%;
+	text-align:center;
+	font-size:16px;
+}
+
+.information a {
+	padding:15.18% 0%;
+	display:block;
+	background-color:#5c6b73;
+	color:white;
+}
+
+.information a:hover {
+	background-color:#253237;
+}
+
+.list {
+	width:13.16%;
+	position:absolute;
+	visibility:hidden;
+}
+
+body table{
+	width:85%;
+	margin:2% 8% 0% 8%;
+	font-size: 20px;
+}
+body table tr{
+	border: 3px solid #000000;
+}
+body table td{
+	padding: 5px 10px; 
+	border: 3px solid #000000;
+	text-align: center;
+}
+body table tr.top{
+	background-color:#c2dfe3;
+}
+body table tr.a{
+	background-color:#e0fbfc;
+}
+body table tr.b{
+	background-color:#f0ffff;
+}
+
+footer div{
+	width:48%;
+	height:125px;
+	font-size:12px;
+	background-color:#253237;
+	color:#ffffff;
+	padding:2% 0% 0% 2%;
+}

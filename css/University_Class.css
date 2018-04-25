@@ -80,7 +80,6 @@ header ul {
 }
 
 .list {
-	border-top:1px solid black;
 	width:13.16%;
 	position:absolute;
 	visibility:hidden;
@@ -90,8 +89,6 @@ header ul {
 	width:85%;
 	font-size:20px;
 	text-align:center;
-	border-top:1px solid black;
-	padding-top:62px;
 	margin:0% 7.5%;
 }
 
@@ -100,10 +97,11 @@ header ul {
 }
 
 .title {
+	font-weight: bolder;
 	text-align:center;
 	background-color:#c2dfe3;
 	border-radius:3px;
-	width:220px;
+	width:280px;
 	margin:31px 0px 31px 7.5%;
 }
 
